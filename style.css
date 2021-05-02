@@ -92,6 +92,21 @@ nav ul li a{
     bottom: 0;
     right: 160px;
 }
+.feature-img-service{
+    height: 100%;
+    bottom: 0;
+    right: 160px;
+    width: 100px;
+    height: 80px;
+    background: transparent;
+    position: relative;
+    animation: mymove 5s;
+    animation-timing-function: linear;
+}
+@keyframes mymove {
+    from {right: 0px;}
+    to {right: 200px;}
+  }
 .social-links{
     transform: rotate(-90deg);
     position: absolute;
